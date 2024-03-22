@@ -1,0 +1,126 @@
+body{
+    font-family: "Quattrocento", serif;
+    font-weight: 400;
+    margin: 0;
+
+}
+section {
+    display: flex;
+    padding: 30px 50px;
+}
+.half-width{
+    width: 50%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 4%;
+    padding-left: 2%;
+}
+.end-width{
+    width: 50%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 4%;
+    padding-left: 2%;
+}
+h1{
+    font-size: 50px;
+}
+h1 span{
+    color: blue;
+}
+p{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: justify;
+
+}
+div a{
+    text-decoration: none;
+    background-image: linear-gradient( green , blue);
+    padding: 10px 30px;
+    border-radius: 18px;
+    color: aliceblue;
+}
+div a:hover{
+    box-shadow:  5px 7px 40px gray;
+}
+.half-width img{
+    width: 90%;
+}
+.section2{
+    display: flex;
+    background-image: url(backpic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h3{
+    font-size: 30px;
+    color: gray;
+}
+.box-made{
+    width: 50%;
+    margin-left: 5%;
+    float: left;
+    margin-top: 4%;
+    padding-left: 2%;
+}
+.box-made img{
+    width: 100%;
+}
+
+.section3 h3{
+    color: blue;
+}
+.section3 div{
+    box-shadow: 5px 7px 40px gray;
+    height: 100%;
+}
+#food1{
+    border-radius: 15px;
+    padding: 2%;
+    box-shadow: 5px 7px 40px gray;
+    border-left: 7px solid  rgb(43, 168, 226);
+}
+.box-made img{
+    border-radius: 15px;
+}
+#food2{
+    padding: 2%;
+    border-radius: 15px;
+    box-shadow: 5px 7px 40px gray;
+    border-left: 7px solid rgb(43, 168, 226);
+}
+.social-react{
+    padding: 80px;
+}
+.social-react h2{
+    font-size: 50px;
+    font-weight: 700;
+}
+.social-react p{
+    font-weight: 400;
+}
+#youtube{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 10px;
+    border-radius: 10px;
+    padding: 5%;
+    box-shadow: 5px 7px 40px gray;
+}
+footer h3 span{ 
+    color: blue;
+}
+footer{
+    background-color: black;
+    height: 150px;
+    text-align: center;
+    padding: 4%;
+
+}
+footer p{
+    color: aliceblue;
+    font-size: 15px;
+    text-align: center;
+}
